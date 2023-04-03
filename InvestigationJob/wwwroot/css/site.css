@@ -1,0 +1,71 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.SignInScreen {
+    height: 1032px;
+    width: 1920px;
+    left: 2384px;
+    top: -791px;
+    border-radius: 0px;
+}
+
+.Menu {
+    border: 2px solid;
+    border-image-source: radial-gradient(69.43% 69.43% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    /* Menu */
+
+
+    position: absolute;
+    width: 987.5px;
+    height: 70px;
+    left: 466px;
+    top: 24px;
+}
+
+.BtnBase {
+    height: 34.969051361083984px;
+    width: 150px;
+    left: 1279.5px;
+    top: 41.46331787109375px;
+    border-radius: 12px;
+    padding: 0px 8px 0px 8px;
+    background: rgba(0, 117, 255, 1);
+    /* _Button/Base */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+    position: absolute;
+    left: 66.64%;
+    right: 25.55%;
+    top: 4.02%;
+    bottom: 92.59%;
+    background: "#0075FF";
+    backdrop-filter: blur(60px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 12px;
+}    
