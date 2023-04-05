@@ -1,19 +1,27 @@
-﻿<div class="SignInScreen">
-    <img class="Vortico" src="https://i.pinimg.com/originals/b3/71/9a/b3719a01f0dba7728d12396475a09e1b.jpg" />
-    <div class="Group123">
-        <h1 class="TextInputs">IJ Login</h1>
-        <div class="TextInputs">Email</div>
-        <input class="InputElements" />
+﻿
+<div class="row container-fluid SignInScreen" style="margin:0; padding:0">
 
-        <div class="TextInputs">Senha</div>
-        <input class="InputElements" />
-        <a asp-action="ProfilePage">
-            <button class="btn btn-primary" type="submit">Acessar</button>
-        </a>
 
-        <a asp-action="MainPage">
-            <link />
-        </a>
-        
+    <img class="col-7 rounded float-start" src="https://i.pinimg.com/originals/b3/71/9a/b3719a01f0dba7728d12396475a09e1b.jpg" style="padding:0; height: 100vh"/>
+
+
+    <div class="col-5" style="margin:0; padding-top: 25vh; padding-left: 8vw; padding-right: 8vw">
+
+        <h1 class="justify-content-center" style="color: white">IJ Login</h1>
+
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email de login</label>
+        </div>
+
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Senha</label>
+        </div>
+
+        <p><a href="#" class="link-light">Esqueci minha senha</a></p>
+
     </div>
+
+
 </div>
