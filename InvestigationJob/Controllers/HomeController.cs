@@ -23,7 +23,12 @@ namespace InvestigationJob.Controllers
             return View();
         }
 
-        public IActionResult ProfilePage()
+        public IActionResult SideBar()
+        {
+            return View();
+        }
+
+        public IActionResult Investigacao()
         {
             return View();
         }
