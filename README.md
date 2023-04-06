@@ -1,2 +1,2 @@
 # InvestigationJob
-This a "UBER" for private investigations.
+This is a kind of "UBER" app for private investigations.
