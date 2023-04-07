@@ -1,0 +1,29 @@
+﻿<div class="row">
+    <div class="col-2 SideBar" style="color: white; background-color: black; height: 100vh">
+        <div class="row" style="text-align:center; padding-top:20vh">
+            <img />
+            <a asp-action="SideBar">
+                <div class="MenuOption">Home</div>
+            </a>
+            <a asp-action="Investigacao">
+                <div class="MenuOption">Investigacoes</div>
+            </a>           
+            <div class="MenuOption">Configuracoes</div>
+            <div class="MenuOption">Conta</div>
+            <a asp-action="Index">
+                <div class="MenuOption">Sair</div>
+            </a>
+
+        </div>
+    </div>
+    <div class="col-10 HomePage" style="color: white">
+        
+    </div>
+</div>
+
+<style>
+    .MenuOption {
+        padding: 10%;
+        border: white;
+    }
+</style>
