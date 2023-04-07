@@ -10,8 +10,4 @@
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Remove="Controllers\UserController.cs" />
-  </ItemGroup>
-
 </Project>
